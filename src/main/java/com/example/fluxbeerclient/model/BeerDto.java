@@ -1,10 +1,11 @@
-package com.example.fluxbeerclient.domain;
+package com.example.fluxbeerclient.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
@@ -12,7 +13,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Beer {
+public class BeerDto {
 
     private UUID id;
 
@@ -24,7 +25,7 @@ public class Beer {
 
     private Integer quantityOnHand;
 
-    private Double price;
+    private BigDecimal price;
 
     private Integer version;
 

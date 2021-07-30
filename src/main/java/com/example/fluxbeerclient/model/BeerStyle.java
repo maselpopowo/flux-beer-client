@@ -1,4 +1,4 @@
-package com.example.fluxbeerclient.domain;
+package com.example.fluxbeerclient.model;
 
 public enum BeerStyle {
     LAGER,
